@@ -13,26 +13,27 @@
 <body>
     <main> <!--é usada para envolver o conteúdo principal de uma página-->
       <h1>CatPhotoApp</h1>
-      <section>
+      <!--tem a função de agrupa um conjunto de elementos relacionados-->
+      <section><!--essa section agrupa uma msg em texto e uma imagem que tem um link atrelado com objetivo de levar o usuario para ver mais fotos  -->
         <h2>Cat Photos</h2>
         <!-- TODO: Add link to cat photos -->
         <p>See more <a target="_blank" href="https://freecatphotoapp.com">cat photos</a> in our gallery.</p>
         <a href="https://freecatphotoapp.com"><img src="https://cdn.freecodecamp.org/curriculum/cat-photo-app/relaxing-cat.jpg" alt="A cute orange cat lying on its back."></a>
       </section>
-      <section>
+      <section><!-- essa section agrupa as imagens que contem legendas e duas listas.-->
         <h2>Cat Lists</h2>
         <h3>Things cats love:</h3>
-        <ul>
+        <ul> <!--<UL> tem a função de fazer uma lista, sem ordem numerica. a tag <LI> tem a função de lista os itens da lista-->
           <li>cat nip</li>
           <li>laser pointers</li>
           <li>lasagna</li>
         </ul>
-        <figure>
-          <img src="https://cdn.freecodecamp.org/curriculum/cat-photo-app/lasagna.jpg" alt="A slice of lasagna on a plate.">
+        <figure><!--<figure> é usada quando queremos colocar a uma legenda em uma imagem, por isso a img precisa esta contidada dentro da figure, e a legenda vai na TAG <figurcaption>-->
+          <img src="https://cdn.freecodecamp.org/curriculum/cat-photo-app/lasagna.jpg" alt="A slice of lasagna on a plate."> <!--a tag <img> é uma tag self close-->
           <figcaption>Cats <em>love</em> lasagna.</figcaption>  
         </figure>
         <h3>Top 3 things cats hate:</h3>
-        <ol>
+        <ol> <!--<ol> tem a função de fazer uma lista, por com ordem númerica, assim com <ul> precisa usar a tag <li> para lista os itens da lista-->
           <li>flea treatment</li>
           <li>thunder</li>
           <li>other cats</li>
@@ -44,10 +45,12 @@
       </section>
       <section>
         <h2>Cat Form</h2>
-        <form action="https://freecatphotoapp.com/submit-cat-photo">
-          <fieldset>
-            <legend>Is your cat an indoor or outdoor cat?</legend>
-            <label><input id="indoor" type="radio" name="indoor-outdoor" value="indoor" checked> Indoor</label>
+        <form action="https://freecatphotoapp.com/submit-cat-photo"> <!--<form> tem a funão de criar um formulário no qual o usuário pode inserir informações que seram enviadas para um servidor-->
+          <fieldset> <!--semelhante ao section o fieldset tem a função de agrupar grupos de elemtnos relacionados, mas no caso do fieldset é para agrupa elemntos do form-->
+            <legend>Is your cat an indoor or outdoor cat?</legend> <!--<legend> é usado junto com o fieldset, com objetivo de ser a descrição do agrupamento.-->
+            <!--a tag <input> tem a função de pegar o alguma informação do usuario. nesse caso prcisa definir qual tipo do input  com type
+                a tag <label>-->
+              <label><input id="indoor" type="radio" name="indoor-outdoor" value="indoor" checked> Indoor</label>
             <label><input id="outdoor" type="radio" name="indoor-outdoor" value="outdoor"> Outdoor</label>
           </fieldset>
           <fieldset>
