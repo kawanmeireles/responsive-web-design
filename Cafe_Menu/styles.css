@@ -3,7 +3,26 @@
  h1, h2, p {
     text-align: center; /* tem o obejetivo de deixa os elemtnos h1,h2 e p centralizado na pagina */ 
   }
-  /* tem a função de deixa a cor do corpo da pagina. */
+  
   body {
-    background-color: burlywood;
+    /* o background aqui tem a função de pega uma imagem do link e coloca no corpo da pagina. */
+    background-image: url(https://cdn.freecodecamp.org/curriculum/css-cafe/beans.jpg) ;
+  }
+  /* Classe em Css são usado para agrupar ementos e aplicar esses estilos no HTML, em varios pontos sem precisar repitir varias vezes o mesmo codigo.*/
+  .menu {
+      width: 80%;
+      /* tem a função de deixa a cor do corpo da pagina. */
+      background-color: burlywood;
+      margin-left: auto;
+      margin-right: auto; 
+    }
+   /* tem a função de deixa o texto do sabor do cafe na esquerda da pagina*/ 
+  .flavor{
+    text-align:left;
+    }
+  .price{
+    text-align:right;
+  }
+  .item p {
+  display: inline-block;
 }
