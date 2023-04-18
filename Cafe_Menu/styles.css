@@ -1,0 +1,9 @@
+/* CSS (Cascading Style Sheets) é uma linguagem de estilo utilizada para definir a aparência e o layout de um documento HTML.
+ Com CSS, é possível definir cores, fontes, tamanhos, espaçamento, posicionamento e outros aspectos visuais de um site. */
+ h1, h2, p {
+    text-align: center; /* tem o obejetivo de deixa os elemtnos h1,h2 e p centralizado na pagina */ 
+  }
+  /* tem a função de deixa a cor do corpo da pagina. */
+  body {
+    background-color: burlywood;
+}
