@@ -10,12 +10,22 @@
   }
   /* Classe em Css são usado para agrupar ementos e aplicar esses estilos no HTML, em varios pontos sem precisar repitir varias vezes o mesmo codigo.*/
   .menu {
-      width: 80%; /* Width é usado para definir a porcentagem ou a lagura em px do layout de uma pagina ou bloco */
+      /* Width é usado para definir a porcentagem ou a lagura em px do layout de uma pagina ou bloco */
+      width: 80%;
+      max-width: 500px; 
       /* tem a função de deixa a cor do corpo da pagina. */
       background-color: burlywood;
       margin-left: auto;
-      margin-right: auto; 
+      margin-right: auto;
+      /* as linhas de codigo abaixo fez com que tenha um espaço extra entre a borda e a texto */
+     /* padding-left: 20px;
+      padding-right: 20px;
+      padding-top: 20px;
+      padding-bottom: 20px;
+      como todas as bordas tem o mesmo espaçamento é mais clean deixar somente um  com a funçaõ de deixar para todos.*/
+      padding: 20px;
     }
+    
    /* tem a função de deixa o texto do sabor do cafe na esquerda da pagina*/ 
   .flavor, .dessert {
     width: 75%;
