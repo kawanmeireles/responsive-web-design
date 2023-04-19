@@ -10,19 +10,21 @@
   }
   /* Classe em Css são usado para agrupar ementos e aplicar esses estilos no HTML, em varios pontos sem precisar repitir varias vezes o mesmo codigo.*/
   .menu {
-      width: 80%;
+      width: 80%; /* Width é usado para definir a porcentagem ou a lagura em px do layout de uma pagina ou bloco */
       /* tem a função de deixa a cor do corpo da pagina. */
       background-color: burlywood;
       margin-left: auto;
       margin-right: auto; 
     }
    /* tem a função de deixa o texto do sabor do cafe na esquerda da pagina*/ 
-  .flavor{
+  .flavor, .dessert {
+    width: 75%;
     text-align:left;
     }
   .price{
+    width: 25%;
     text-align:right;
   }
   .item p {
-  display: inline-block;
+    display: inline-block;
 }
