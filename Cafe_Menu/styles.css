@@ -1,32 +1,39 @@
-/* CSS (Cascading Style Sheets) é uma linguagem de estilo utilizada para definir a aparência e o layout de um documento HTML.
- Com CSS, é possível definir cores, fontes, tamanhos, espaçamento, posicionamento e outros aspectos visuais de um site. */
- h1, h2, p {
-    text-align: center; /* tem o obejetivo de deixa os elemtnos h1,h2 e p centralizado na pagina */ 
-  }
-  
+  /* CSS (Cascading Style Sheets) é uma linguagem de estilo utilizada para definir a aparência e o layout de um documento HTML.
+  Com CSS, é possível definir cores, fontes, tamanhos, espaçamento, posicionamento e outros aspectos visuais de um site. */
+
+
+  /* tem o obejetivo de deixa os elemtnos h1,h2 e p centralizado na pagina */ 
+  h1, h2, p {
+    text-align: center; 
+    }
+
+  /*Esse body tem a função de colocar uma imagem de fundo e mudar a fonte de todos os textos. */  
   body {
     /* o background aqui tem a função de pega uma imagem do link e coloca no corpo da pagina. */
     background-image: url(https://cdn.freecodecamp.org/curriculum/css-cafe/beans.jpg) ;
+    font-family: sans-serif;
   }
+
+  
   /* Classe em Css são usado para agrupar ementos e aplicar esses estilos no HTML, em varios pontos sem precisar repitir varias vezes o mesmo codigo.*/
+  /* O .menu é uma class que tem a função de mexer com o alinhamento das margens e cor do corpo do menu. */
   .menu {
-      /* Width é usado para definir a porcentagem ou a lagura em px do layout de uma pagina ou bloco */
+      
       width: 80%;
       max-width: 500px; 
-      /* tem a função de deixa a cor do corpo da pagina. */
       background-color: burlywood;
       margin-left: auto;
       margin-right: auto;
-      /* as linhas de codigo abaixo fez com que tenha um espaço extra entre a borda e a texto */
-     /* padding-left: 20px;
-      padding-right: 20px;
-      padding-top: 20px;
-      padding-bottom: 20px;
-      como todas as bordas tem o mesmo espaçamento é mais clean deixar somente um  com a funçaõ de deixar para todos.*/
       padding: 20px;
     }
-    
-   /* tem a função de deixa o texto do sabor do cafe na esquerda da pagina*/ 
+
+    /*tem a função de mudar a fonte do texto do h1 e h2*/
+    h1,h2 {
+      font-family: Impact;
+    }
+
+
+   /* tem a função de deixa os textos na mesma linha.*/ 
   .flavor, .dessert {
     width: 75%;
     text-align:left;
@@ -37,4 +44,4 @@
   }
   .item p {
     display: inline-block;
-}
+  }
