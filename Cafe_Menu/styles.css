@@ -12,6 +12,7 @@
     /* o background aqui tem a função de pega uma imagem do link e coloca no corpo da pagina. */
     background-image: url(https://cdn.freecodecamp.org/curriculum/css-cafe/beans.jpg) ;
     font-family: sans-serif;
+    padding: 20px;
   }
 
   
@@ -26,12 +27,36 @@
       margin-right: auto;
       padding: 20px;
     }
-
-    /*tem a função de mudar a fonte do texto do h1 e h2*/
-    h1,h2 {
-      font-family: Impact;
+    /* Centralizando o icone do cafe*/
+    img{
+      display: block;
+      margin-left: auto;
+      margin-right:auto;
+      margin-top: -25px;
     }
 
+    /*mudar a expressura do <hr>*/
+    hr{
+      height: 2px;
+      background-color: brown;
+      border-color: brown;
+    }
+
+    /*tem a função de mudar a fonte do texto e tamanho da fonto  do h1 e h2 e a fonte do  EST.2020*/
+    h1,h2 {
+      font-family: Impact,serif;
+    }
+    h1 {
+      font-size: 40px;
+      margin-top: 0px;
+      margin-bottom: 15px;
+    }
+    h2 {
+      font-size: 30px;
+    }
+    .established{
+      font-style: italic;
+    }
 
    /* tem a função de deixa os textos na mesma linha.*/ 
   .flavor, .dessert {
@@ -44,4 +69,28 @@
   }
   .item p {
     display: inline-block;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-size: 18px;
   }
+  
+  .bottom-line{
+    margin-top: 25px;
+  }
+
+/*FOOTER*/
+footer {
+  font-size: 14px;
+}
+
+a {
+  color: black;
+  
+}
+a:visited{color: grey;} /* Cor do link caso já tenha sido visitado*/
+a:hover{color:brown;}   /* Cor do link quando passar o mouse por cima*/
+a:active{color:white}   /* Cor do link quando ele foi clicado.*/
+
+.address {
+  margin-bottom: 5px
+}
