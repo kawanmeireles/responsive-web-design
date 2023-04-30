@@ -1,13 +1,85 @@
 /* Essas configurações são comumente usadas para criar uma página que ocupa
-toda a área visível do navegador, sem margens ou espaçamentos indesejados. */
+toda a área visível do navegador, sem margens ou espaçamentos indesejados.
+alem do estilo da pagina. */
 body{
     width: 100%;
     height: 100vh;
     background-color: #1b1b32;
-    color: #f5f6f7
+    color: #f5f6f7;
+    font-family: Tahoma;
+    font-size: 16px;
+
+
 }
 
 label {
     display:block;
     margin: 0.5rem 0
   }
+  
+  h1, p {
+    margin: 1em auto;
+    text-align: center;
+  }
+  
+  /*margin:0 auto > Isso centraliza o formulário horizontalmente na página.
+  max-width>  Isso garante que o formulário não se estenda além do limite
+  min-width >  Isso garante que o formulário tenha pelo menos essa largura
+  width:60vw> Define a largura do formulário como 60%  Isso permite que o 
+  formulário se ajuste dinamicamente ao tamanho da janela do navegado*/ 
+  form {
+    margin: 0 auto; 
+    max-width: 500px;
+    min-width: 300px;
+    width: 60vw;
+    padding-bottom: 2em;
+  }
+
+  fieldset{
+    border: none;
+    padding: 2rem 0;
+    border-bottom: 3px solid #3b3b4f;
+
+  }
+  fieldset:last-of-type{
+    border-bottom: none;
+  }
+
+  input, textarea, select {
+    margin: 10px 0 0 0;
+    width: 100%;
+    color: #FFFFFF;
+    min-height: 2em;
+  }
+
+  input,  textarea {
+    background-color: #0a0a23;
+    border: 1px solid #0a0a23;  
+  }
+
+  /* o style do botão submit. */
+  input[type="submit"] {
+    display: block;
+    width: 60%;
+    margin: 1em auto 1em auto;
+    min-height: 2em;
+    font-size: 1.1rem;
+    background-color: #3b3b4f;
+    border-color: white;
+    min-width: 300px;
+  }
+  input[type="file"]{
+    padding: 1px 2px;
+  }
+    /* cor do link*/
+  a{
+    color: #dfdfe2;
+  }
+
+  /*com o width unset, ele cria uma exceção ao width criandos anteriomente.*/
+  .inline{
+    width: unset;
+    margin: 0 0.5em 0 0;
+    vertical-align: middle;
+  }
+  
