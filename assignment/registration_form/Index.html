@@ -16,13 +16,32 @@
         
         <fieldset>
          <!--Esse Fieldset vai conter nome email e senha-->   
-        <label for="first-name">Enter Your First Name: <input id="first-name" type="text"></label>
-        <label for="last-name">Enter Your Last Name: <input id="last-name" type="text"></label>
-        <label for="email">Enter Your Email: <input id="email" type="email"></label>
-        <label for="new-password">Create a New Password: <input id="Password" type="password"></label>
+        <label for="first-name">Enter Your First Name: <input id="first-name" type="text" required></label>
+        <label for="last-name">Enter Your Last Name: <input id="last-name" type="text" required></label>
+        <label for="email">Enter Your Email: <input id="email" type="email" required></label>
+        <label for="new-password">Create a New Password: <input id="Password" type="password" pattern="[a-z0-5]{8,}" required></label>
         </fieldset>
-        <fieldset></fieldset>
-        <fieldset></fieldset>
+        <fieldset>
+        <!--esse fieldset vai pergunta se o tipo de conta e se o usuario esta de acordo com os termos.-->    
+            <label for="personal-account"><input type="radio" id="personal-account" name="account-type"> Personal Account</label>
+            <label for="business-account"><input type="radio" id="business-account" name="account-type"> Business Account </label>
+            <label for="terms-and-conditions"><input type="checkbox" id="terms-and-conditions" required> I accept the <a href="https://www.freecodecamp.org/news/terms-of-service/">terms and conditions</a> </label>
+        </fieldset>
+        <fieldset>
+        <!--esse fieldset é para upload de arquivos-->
+        <label>Upload a profile picture: <input type="file">></label>
+        <label>Input your age (years): <input type="number" min="13" max="120"></label>
+        <label>How did you hear about us?
+            <select>
+              <option value="">(select one)</option>
+              <option value="1">freeCodeCamp News</option>
+              <option value="2">freeCodeCamp YouTube Channel</option>
+              <option value="3">freeCodeCamp Forum</option>
+              <option value="4">Other</option>
+            </select>
+          </label>
+        </fieldset>
+       
         <input type="submit" value="Submit">
     </form>
 </body>
