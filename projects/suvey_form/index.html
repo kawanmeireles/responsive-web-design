@@ -18,12 +18,25 @@
     </header>
     <main>
         <form id="suvey-form">
-        <div>
-            <label for="full-name">Name<input id="full-name" type="text"  required></label>
-            <label for="email">Email<input id="email" type="email" required></label>
-            <label for="age">Your age (must be over 16)<input id="age" type="age"></label>
-        </div>    
-            
+            <div >
+                <label for="full-name">Name<input id="full-name" type="text" placeholder="JavaScript" required></label>
+                <label for="email">Email<input id="email" type="email" placeholder="html@css.com" required></label>
+                <label for="age">Your age (must be over 10)<input id="age" type="number" min="10" max="100" placeholder="15"></label>
+            </div>  
+            <div>
+                <label for="dropdown">Which option best describes your current role?
+                    <select id="dropdown">
+                        <option>(select one )</option>
+                        <option>Student</option>
+                        <option>Full Time Job</option>
+                        <option>Part Time Job</option>
+                        <option>Other</option>
+                    </select>
+                </label>    
+            </div>
+            <div>
+                
+            </div>
         <input type="submit">
         </form>
     </main>
