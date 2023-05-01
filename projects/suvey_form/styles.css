@@ -15,15 +15,42 @@ body{
 
 }
 
+    h1, p{
+        text-align: center;
+    }
 /* .class e #ID */
-#suvey-form{
+#survey-form{
     background-color: #1b1b32;
     margin: 0 auto 0 auto;
     max-width: 700px;
     min-width: 300px;
     width: 60vw;
+    
+    
 }
 
 label{
     display: block;
+    
+}
+
+
+.dados, textarea, select {
+    margin: 10px 0 0 0;
+    width: 100%;
+    color: #FFFFFF;
+    min-height: 2em;
+  }
+
+#submit{
+    display: block;
+    width: 80%;
+    margin: 1em auto 1em auto;
+    min-height: 2em;
+    font-size: 1.1rem;
+    background-color: green;
+    color:white;
+    border: none;
+    min-width: 300px;
+
 }
