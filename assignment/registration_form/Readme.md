@@ -1,0 +1,3 @@
+Registration Form é o quarto e último projeto da primeira fase do curso Responsive Web Design do FreeCodeCamp, e tem o intuito de nos aprofundar ainda mais no HTML e como estilizar uma página com o CSS.
+
+The Registration Form is the fourth and final project of the first phase of the Responsive Web Design course from FreeCodeCamp, and it aims to further deepen our understanding of HTML and how to style a page using CSS.

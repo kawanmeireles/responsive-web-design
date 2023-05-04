@@ -1,0 +1,3 @@
+Survey Form é o primeiro projeto que fazemos totalmente sozinhos, com o objetivo de nos desafiarmos a colocar em prática o que aprendemos, principalmente em HTML. O uso de CSS é totalmente opcional, mas nesse caso, eu fiz um pouco e pretendo no futuro deixá-lo mais parecido com o modelo do FreeCodeCamp.
+
+Survey Form is the first project that we do entirely on our own, with the goal of challenging ourselves to put into practice what we have learned, especially in HTML. The use of CSS is completely optional, but in this case, I did some styling and plan to make it more similar to the FreeCodeCamp's model in the future.
