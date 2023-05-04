@@ -1,0 +1,3 @@
+Every HTML element is its own box – with its own spacing and a border. This is called the Box Model. This task aims to use CSS and the Box Model to create the example rectangle with Rothko's style.
+
+Cada elemento HTML é sua própria caixa - com seu próprio espaçamento e uma borda. Isso é chamado de Modelo de Caixa. Esta tarefa tem como objetivo usar o CSS e o Modelo de Caixa para criar o retângulo de exemplo com o estilo de Rothko.
