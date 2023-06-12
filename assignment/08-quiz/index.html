@@ -71,9 +71,29 @@
                 </div>
             </section>
 
-            <section role="region" aria-labelledby="css-questions"><h2 id="css-questions">CSS</h2>   
+            <section role="region" aria-labelledby="css-questions"><h2 id="css-questions">CSS</h2> 
+                <div class="formrow">
+                    <div class="question-block">
+                        <label for="web-developer">Are you an frontend developer?</label>
+                    </div>
+                    <div class="answer">
+                        <select name="frontend" id="web-developer" required>
+                            <option value="">Select an option</option>
+                            <option value="yes">Yes</option>
+                            <option value="no">No</option>
+                        </select>
+                    </div>
+                    <div class="question-block ">
+                        <label for="doubt">Do you have any questions</label>
+                    </div>
+                    
+                    <div class="answer">
+                        <textarea name="doubt-answer" id="doubt" cols="20" rows="10" placeholder="how can i become a web developer"></textarea>
+                    </div>
+                </div>  
             </section>
         </form>
+        <input type="submit" value="Send">
     </main>
 </body>
 </html>
