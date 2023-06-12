@@ -10,6 +10,10 @@ body {
     width: 100%;
     background-color: #1b1b32;
     display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    top: 0;
   }
 
   #logo {
@@ -29,11 +33,29 @@ body {
   height: 50px;
   }
   
-  nav>ul{
+  nav > ul{
     display: flex;
     justify-content: space-evenly;
   }
   
+  nav > ul > li{
+    color: #dfdfe2;
+    margin: 0 0.2rem;
+    padding: 0.2rem;
+    display: block; 
+  }
+    li > a {
+        color: inherit; /*The inherit value for the color property means that the color of the anchor elements will be inherited from their parent elements. */
+        text-decoration: none; /* Removes the underline */
+    }
+
+    nav > ul >li:hover{
+      background-color: #dfdfe2; /* Set the background color on hover */
+      color: #1b1b32; /* Set the text color on hover */
+      cursor: pointer; /* Change the cursor to a pointer on hover */
+    }
+    
+
   h1,
   h2{
     font-family: Verdana, sans-serif;
