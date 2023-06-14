@@ -88,9 +88,34 @@
   }
   
   .formrow{
-    padding: 10px 0 0 0;
+    margin-top: 30px;
+    padding: 0 15px;
   }
 
+  input{
+    font-size: 16px;
+  }
+
+  .info > input{
+    width: 50%;
+    text-align: left;
+  }
+  .info > label{
+    width: 10%;
+    min-width: 55px;
+  }
+  .info >label, .info > input {
+    display: inline-block;
+    text-align: right;
+  }
+
+  .question-block{
+    text-align: left;
+    display: block;
+    width: 100%;
+    margin-top: 20px;
+    padding-top: 5px;
+  }
   /*To prevent unnecessary repetition, target the before pseudo-element of the p element, and give it a content property of "Question #"*/
   p::before{
     content: "Question #"
