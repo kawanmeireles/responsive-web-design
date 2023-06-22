@@ -131,6 +131,7 @@
     border: none;
     padding-bottom: 0;
   }
+  
   /* o condigo a baixo define a class sr-only e tem objetivo de deixar o conteudo visivel somente para o nevegador*/
   .sr-only{
     position: absolute;
