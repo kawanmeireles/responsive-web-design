@@ -1,0 +1,1 @@
+Tribute Page é o segundo projeto que é proposto para pelo FreeCodeCamp, e tem o objetivo de colocar em prática os ensinamentos aprendidos durantes os módulos 
