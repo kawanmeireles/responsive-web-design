@@ -1,0 +1,1 @@
+Esse assignment tem objetivo ensina e esclarece o uso dos pseudo seletores CSS.
